@@ -3,6 +3,8 @@
     // Imagine an online shopping cart.
 
 
+    // this project we using only Push And Pop Methods
+
 // STEP 1: Create an empty shopping cart
 const cart = [];
 // STEP 2: Add the first product

@@ -1,3 +1,7 @@
+
+// this project build only slic and splice
+
+
 // STEP 1: Create our product list
 const products = ["Laptop", "Mouse", "Keyboard", "Monitor", "Printer"];
 console.log("products" ,products);

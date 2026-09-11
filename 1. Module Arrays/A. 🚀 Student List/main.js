@@ -1,6 +1,8 @@
 // 🚀 Mini Project: Student List
     // Let's use what we learned.
 
+    // this project only printing the indexs
+
 
 // STEP 1: Create an Array containing students
 const students = ["Mohamed", "Xassan", "Cummer", "faaduma"];
