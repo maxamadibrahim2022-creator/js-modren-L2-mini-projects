@@ -1,5 +1,7 @@
 // const fruits = ["Apple", "Bannana", "mango", "orrenge"];
 
+// const { use } = require("react")
+
 // // step2: removed fruits
 // const removedFruits = fruits.splice(2.3);
 
@@ -265,18 +267,70 @@
 
 // console.log(total)
 
-const students= [
-    {name : "Hassan", score : 50},
-    {name : "Ommer", score : 76},
-    {name : "fatima", score : 87},
-    {name : "Jimcaale", score : 68}
-]
-// STEP 1: Calculate the total score
-const totalScore = students.reduce((sum , student)=>{
-    return sum + student.score
-}, 0)
+// const students= [
+//     {name : "Hassan", score : 50},
+//     {name : "Ommer", score : 76},
+//     {name : "fatima", score : 87},
+//     {name : "Jimcaale", score : 68}
+// ]
+// // STEP 1: Calculate the total score
+// const totalScore = students.reduce((sum , student)=>{
+//     return sum + student.score
+// }, 0)
 
-// STEP 2: Calculate the average
-const average = totalScore / students.length;
-console.log("Total: ", totalScore);
-console.log("average: ", average);
+// // STEP 2: Calculate the average
+// const average = totalScore / students.length;
+// console.log("Total: ", totalScore);
+// console.log("average: ", average);
+
+// const user = {
+//     name: "Ali",
+
+//     sayHello: function() {
+//         console.log("Hello!");
+//     }
+// };
+
+// user.sayHello();
+
+
+// const user = {
+//     name : "Ali",
+
+//     interoduce() {
+//         console.log(`my Nmae is ${this.name}`)
+//     }
+// };
+// user.interoduce();
+
+// const user = {
+//     name : "Mohamed",
+//     agee : 25,
+//     address: {
+//         city : "Mogadishu",
+//         country : "somalia"
+//     }
+// }
+
+// console.log(user.address)
+
+const user = {
+    name: "Ahmed",
+    age: 24,
+
+    introduce() {
+        console.log(`My name is ${this.name}`);
+    },
+
+    showAge() {
+        console.log(`I am ${this.age} years old`);
+    },
+
+    birthday() {
+        this.age++;
+    }
+};
+
+user.introduce();
+user.showAge();
+user.birthday();
