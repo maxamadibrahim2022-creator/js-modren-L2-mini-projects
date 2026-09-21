@@ -223,13 +223,60 @@
 
 
 
-const numbers = [10, 20, 30, 40];
+// const numbers = [10, 20, 30, 40];
 
-// STEP 1: Check the numbers one by one
-// STEP 2: Find the first number greater than 20
-const result = numbers.find((number) => {
-    return number > 20;
-});
+// // STEP 1: Check the numbers one by one
+// // STEP 2: Find the first number greater than 20
+// const result = numbers.find((number) => {
+//     return number > 20;
+// });
 
-// STEP 3: Display the result
-console.log(result);
+// // STEP 3: Display the result
+// console.log(result);
+
+
+
+// const students = [
+//     { name: "Ali", score: 85 },
+//     { name: "Ahmed", score: 7 },
+//     { name: "Hassan", score: 45 }
+// ];
+
+// const hasFailedStudent = students.some((student) => {
+//     return student.name;
+// });
+
+// console.log(hasFailedStudent);
+
+
+// const numbers =  [10,20,3,40];
+
+// const result = numbers.every((number)=>{
+//     return number > 5
+// })
+
+// console.log(result);
+
+// const numbers = [10,20,30,40];
+
+// const total = numbers.reduce((sum, number)=>{
+//     return sum + number
+// }, 0 );
+
+// console.log(total)
+
+const students= [
+    {name : "Hassan", score : 50},
+    {name : "Ommer", score : 76},
+    {name : "fatima", score : 87},
+    {name : "Jimcaale", score : 68}
+]
+// STEP 1: Calculate the total score
+const totalScore = students.reduce((sum , student)=>{
+    return sum + student.score
+}, 0)
+
+// STEP 2: Calculate the average
+const average = totalScore / students.length;
+console.log("Total: ", totalScore);
+console.log("average: ", average);
