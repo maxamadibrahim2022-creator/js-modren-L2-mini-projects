@@ -314,23 +314,91 @@
 
 // console.log(user.address)
 
-const user = {
-    name: "Ahmed",
-    age: 24,
+// const user = {
+//     name: "Ahmed",
+//     age: 24,
 
-    introduce() {
-        console.log(`My name is ${this.name}`);
-    },
+//     introduce() {
+//         console.log(`My name is ${this.name}`);
+//     },
 
-    showAge() {
-        console.log(`I am ${this.age} years old`);
-    },
+//     showAge() {
+//         console.log(`I am ${this.age} years old`);
+//     },
 
-    birthday() {
-        this.age++;
-    }
-};
+//     birthday() {
+//         this.age++;
+//     }
+// };
 
-user.introduce();
-user.showAge();
-user.birthday();
+// user.introduce();
+// user.showAge();
+// user.birthday();
+
+// const user = {
+//     name: "Ali",
+//     age: 25
+// };
+
+
+// const {name, age} = user;
+
+// console.log(name),
+// console.log(age)
+
+// spreed object
+// const fruits = ["Apple", "Banana", "Mango"];
+// console.log(...fruits)
+
+// 2. Copy an Array
+// const newFruits = [...fruits];
+// newFruits.push("orrenge")
+// console.log(newFruits);
+
+// 4. Combine two Arrays
+// const fruits = ["Apple","Bananan"];
+// const vigetables = ["Carrot","Potato"]
+
+// const food = [...fruits, ...vigetables];
+// console.log(food);
+
+// 7. Add a new property
+// const user = {
+//     name : "Mohamed",
+//     age : 25
+// };
+
+// const newUser = {
+//     ...user,
+//     country : "somalia"
+// };
+// console.log(newUser);
+
+// function-ka caadiga ah
+// function add(a, b) {
+//     console.log(a);
+//     console.log(b);
+// }
+
+// add(10, 20);
+
+
+// 2. Rest Parameters
+// function add(...numbers) {
+
+//     // console.log(numbers);
+    
+//     let total = 0;
+//     numbers.forEach((number)=>{
+//         total = total + number
+//     })
+
+//     console.log(total);
+// }
+
+// add(10, 20, 30, 40, 50);
+
+
+function add(...numbers){
+    const t
+}
