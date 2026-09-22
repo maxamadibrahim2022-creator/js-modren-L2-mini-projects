@@ -375,14 +375,15 @@
 // console.log(newUser);
 
 // function-ka caadiga ah
-// function add(a, b) {
-//     console.log(a);
-//     console.log(b);
+// function add(a,b,...numbers) {
+// console.log(a);
+// console.log(b);
+// console.log(numbers);
 // }
+// add(10, 20,30,40);
 
-// add(10, 20);
 
-
+// console.log("==============")
 // 2. Rest Parameters
 // function add(...numbers) {
 
@@ -398,7 +399,26 @@
 
 // add(10, 20, 30, 40, 50);
 
+// {
+// function add(...numbers){
+//     const total = numbers.reduce((sum , number)=>{
+//         return sum + number
+//     },0)
+//     return total;
+// }
+// console.log(add(10,20,30,40))}
 
-function add(...numbers){
-    const t
-}
+const product = {
+    name: "Laptop",
+    price: 800,
+    quantity: 2
+};
+
+const message = `
+Product: ${product.name}
+Price: $${product.price}
+Quantity: ${product.quantity}
+Total: $${product.price * product.quantity}
+`;
+
+console.log(message);
