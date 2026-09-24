@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+
+.container {
+    background-color: rgb(200, 220, 231);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}

@@ -408,17 +408,21 @@
 // }
 // console.log(add(10,20,30,40))}
 
-const product = {
-    name: "Laptop",
-    price: 800,
-    quantity: 2
-};
+// const product = {
+//     name: "Laptop",
+//     price: 800,
+//     quantity: 2
+// };
 
-const message = `
-Product: ${product.name}
-Price: $${product.price}
-Quantity: ${product.quantity}
-Total: $${product.price * product.quantity}
-`;
+// const message = `
+// Product: ${product.name}
+// Price: $${product.price}
+// Quantity: ${product.quantity}
+// Total: $${product.price * product.quantity}
+// `;
 
-console.log(message);
+// console.log(message);
+
+document.addEventListener("keydown", (event) => {
+    console.log(event.key);
+});
