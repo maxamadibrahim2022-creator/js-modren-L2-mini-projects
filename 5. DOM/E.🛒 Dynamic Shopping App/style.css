@@ -1,0 +1,59 @@
+/* GENERAL PAGE */
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 40px;
+}
+
+/* MAIN CONTAINER */
+.container{
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+/* TITLE */
+h1{
+    text-align: center;
+}
+
+.input-area{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#productInput{
+    flex: 1;
+    padding: 10px;
+}
+
+
+/* ADD BUTTON */
+#addButton{
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+/* PRODUCT ITEM */
+.product-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: #eeeeee;
+    border-radius: 6px;
+}
+
+
+ /* REMOVE BUTTON */
+ .remove-button{
+    padding: 6px 10px;
+    cursor: pointer;
+ }
