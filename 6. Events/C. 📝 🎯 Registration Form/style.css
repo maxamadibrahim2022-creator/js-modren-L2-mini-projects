@@ -1,0 +1,91 @@
+/* ========================================
+   GENERAL PAGE
+   ======================================== */
+
+body {
+    font-family: Arial, sans-serif;
+
+    background-color: #f4f4f4;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+
+/* ========================================
+   CONTAINER
+   ======================================== */
+
+.container {
+    background-color: white;
+
+    width: 350px;
+
+    padding: 30px;
+
+    border-radius: 10px;
+}
+
+
+/* ========================================
+   FORM
+   ======================================== */
+
+form {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+
+/* ========================================
+   INPUT
+   ======================================== */
+
+input {
+    padding: 10px;
+
+    margin-bottom: 10px;
+}
+
+
+/* ========================================
+   BUTTON
+   ======================================== */
+
+button {
+    padding: 10px;
+
+    cursor: pointer;
+}
+
+
+/* ========================================
+   MESSAGE
+   ======================================== */
+
+#success {
+    color: green;
+}
+
+#error{
+    color: red;
+}
+
+.valid{
+    border: 2px solid green;
+}
+
+.invalid{
+    border: 2px solid red;
+}
+
+input{
+    outline: none;
+}
+
